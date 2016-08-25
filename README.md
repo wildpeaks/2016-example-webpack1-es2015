@@ -1,6 +1,7 @@
 # Code Coverage of ES Modules
 
 Example showing how to achieve **coverage of ES Modules** using [Babel 6](https://babeljs.io), [Mocha](https://mochajs.org) and [Nyc](https://github.com/istanbuljs/nyc)/[Istanbul](https://istanbul.js.org).
+The code can also contain [Flow](https://flowtype.org/) type annotations.
 
 
 ---
@@ -20,7 +21,7 @@ That why `/src/index.js` or modules in `/src/node_modules` are able to use impor
 
 Tests are located with the module they test, are named `modulename.tests.js`, and are run using `npm test`.
 
-You can change the location of the tests in the `package.json` settings (if you prefer a centralized `test` folder for example).
+You can change the location of the tests in the root `package.json` settings (if you prefer a centralized `test` folder for example).
 
 You can change the Babel plugins and presets in `mocha-babel-hook.js`.
 
@@ -31,7 +32,7 @@ You can change the Babel plugins and presets in `mocha-babel-hook.js`.
 
 The coverage report is outputted in `/coverage`, and is run using `npm run coverage`.
 
-You can change the output folder and reporters in the `package.json` settings.
+You can change the output folder and reporters in the root `package.json` settings.
 
 You can change the Babel plugins and presets in `nyc-babel-hook.js`.
 
