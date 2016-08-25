@@ -13,6 +13,7 @@
 
 !.editorconfig
 !.eslintrc.json
+!.flowconfig
 !.gitattributes
 !.gitignore
 !README.md
