@@ -1,0 +1,31 @@
+{
+	"private": true,
+	"name": "example",
+	"description": "Code Coverage of ES Modules with Flow annotations",
+	"engines": {
+		"node": ">=6.0.0"
+	},
+	"nyc": {
+		"sourceMap": false,
+		"instrument": false,
+		"include": ["src/**/*.js"],
+		"exclude": ["**/*.tests.js"],
+		"reporter": [
+			"html",
+			"text"
+		],
+		"report-dir": "./coverage"
+	},
+	"scripts": {
+		"test": "mocha --compilers js:./mocha-babel-hook.js ./src/**/*.tests.js || true",
+		"coverage": "nyc mocha --compilers js:./nyc-babel-hook.js ./src/**/*.tests.js || true"
+	},
+	"devDependencies": {
+		"babel-preset-es2015": "^6.13.2",
+		"babel-plugin-istanbul": "^2.0.0",
+		"babel-plugin-transform-flow-strip-types": "^6.14.0",
+		"babel-register": "^6.11.6",
+		"mocha": "^3.0.2",
+		"nyc": "^8.1.0"
+	}
+}
