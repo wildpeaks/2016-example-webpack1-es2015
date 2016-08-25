@@ -38,3 +38,14 @@ You can change the Babel plugins and presets in `nyc-babel-hook.js`.
 
 
 ---
+
+## Linting
+
+You can run manually **Eslint** on the codebase using `npm run lint`, and **Flow** using `npm run typecheck`.
+
+I'd also recommend integrating them to your favorite IDE, so you get immediate feedback from the linters.
+[Sublime Text](http://www.sublimetext.com), for example, has `Sublimelinter-contrib-eslint` and `Sublimelinter-flow` extensions.
+
+
+---
+
