@@ -6,6 +6,7 @@
 		"node": ">=6.0.0"
 	},
 	"nyc": {
+		"all": true,
 		"sourceMap": false,
 		"instrument": false,
 		"include": ["src/**/*.js"],
