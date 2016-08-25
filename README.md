@@ -12,7 +12,7 @@ Sources are located in `src`, especially in `/src/node_modules`.
 
 Note that the name "**node_modules**" doesn't imply "thirdparty from NPM", it's just [how Node resolves paths](https://nodejs.org/api/modules.html#modules_loading_from_node_modules_folders) (hence why NPM uses it).
 
-That's why `/src/application.js` and modules in `/src/node_modules` subfolders are able to use import other modules using clean paths like `components/hello` instead of fragile paths like `../../../components/hello/hardcoded.js` without the need for aliasing folder hacks in every tool of your stack.
+That's why `/src/application.js` and modules in `/src/node_modules` subfolders are able to import other modules using clean paths like `components/hello` instead of fragile paths like `../../../components/hello/hardcoded.js` without the need for aliasing folder hacks in every tool of your stack.
 
 
 ---
