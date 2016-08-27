@@ -19,9 +19,11 @@
 !README.md
 
 !/src
+!/helpers
 !/package.json
 !/mocha-babel-hook.js
 !/nyc-babel-hook.js
+!/webpack.config.js
 
 
 #-----------------------------------------------------------------------------#
