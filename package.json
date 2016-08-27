@@ -22,7 +22,7 @@
 		"report-dir": "./coverage"
 	},
 	"scripts": {
-		"start": "webpack-dev-server --port 8000 --content-base dist/ --debug",
+		"start": "webpack-dev-server --port 8000 --content-base www/ --debug",
 		"build": "webpack --minify --production || true",
 		"lint": "eslint src --ext .js || true",
 		"typecheck": "flow check src || true",
