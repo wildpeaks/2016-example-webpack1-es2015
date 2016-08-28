@@ -1,4 +1,4 @@
-# sample-webpack-es2015
+# Webpack for ES2015
 
 Sample project for **ES2015 web development** (including code coverage of ES Modules).
 
