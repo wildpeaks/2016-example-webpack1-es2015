@@ -2,6 +2,8 @@
 
 Sample project for **ES2015 web development** (including code coverage of ES Modules).
 
+**Update:** The *Webpack 2* version of this is available at [wildpeaks/webpack2-es2015-boilerplate](https://github.com/wildpeaks/webpack2-es2015-boilerplate) instead.
+
 
 ---
 
